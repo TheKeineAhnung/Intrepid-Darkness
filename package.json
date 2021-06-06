@@ -1,0 +1,47 @@
+{
+    "name": "keineahnung",
+    "displayName": "Dark Colortheme by KeineAhnung",
+    "description": "",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "scripts": {
+        "deploy": "vsce publish --yarn"
+    },
+    "publisher": "KeineAhnung",
+    "categories": [
+        "Themes"
+    ],
+    "galleryBanner": {
+        "color": "#0C1016",
+        "theme": "dark"
+    },
+    "bugs": {
+        "url": "https://github.com/TheKeineAhnung/VSC-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TheKeineAhnung/VSC-theme"
+    },
+    "icon": "icon.png",
+    "keywords": [
+        "KeineAhnung",
+        "theme",
+        "vsc",
+        "dark theme",
+        "best dark theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "KeineAhnung Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/KeineAhnung Color Theme-color-theme.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.92.0"
+    }
+}
