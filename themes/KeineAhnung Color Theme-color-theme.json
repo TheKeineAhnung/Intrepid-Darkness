@@ -369,7 +369,6 @@
 			"name": "[HTML] comment text",
 			"scope": [
 				"comment.block.html",
-				"comment.line.double-slash.js"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -557,10 +556,22 @@
 		{
 			"name": "[JS] comment blocks",
 			"scope": [
-				"comment.block.documentation.js"
+				"comment.block.documentation.js",
+				"comment.block.js",
+				"punctuation.definition.comment.js",
+				"comment.line.double-slash.js"
 			],
 			"settings": {
 				"foreground": "#1ac785"
+			}
+		},
+		{
+			"name": "[JS] comment block declaration",
+			"scope": [
+				"punctuation.definition.comment.js"
+			],
+			"settings": {
+				"foreground": "#14885c"
 			}
 		},
 		{
