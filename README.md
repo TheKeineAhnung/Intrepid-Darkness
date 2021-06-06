@@ -16,7 +16,7 @@ A dark theme for Visual Studio Code.
 
 ## Preview
 
-![Preview of the theme][previewPic]
+<img src="images/Theme_Preview.png"></img>
 
 ## Links
 - [Github Repository](https://github.com/TheKeineAhnung/VSC-theme)
