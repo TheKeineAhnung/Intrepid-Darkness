@@ -12,6 +12,7 @@ A dark theme for Visual Studio Code.
 - CSS
 - JavaScript
 - JSON
+- Markdown
 
 ## Links
 - [Github Repository](https://github.com/TheKeineAhnung/VSC-theme)
