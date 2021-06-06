@@ -442,10 +442,22 @@
 				"variable.other.object.property.js",
 				"variable.other.property.js",
 				"variable.parameter.js",
-				"variable.other.constant.js"
+				"variable.other.constant.js",
+				"source.python"
 			],
 			"settings": {
 				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[PY] import color",
+			"scope": [
+				"keyword.control.import.python",
+				"keyword.other.python",
+				"keyword.control.import.from.python"
+			],
+			"settings": {
+				"foreground": "#52fce5"
 			}
 		},
 		{
@@ -471,9 +483,46 @@
 				"keyword.operator.logical.js",
 				"storage.type.function.arrow.js",
 				"keyword.operator.relational.js",
+				"keyword.operator.increment.js",
+				"keyword.operator.decrement.js",
+				"keyword.operator.assignment.compound.js",
+				"keyword.operator.expression.in.js",
+				"keyword.operator.expression.of.js"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
+			}
+		},
+		{
+			"name": "[PY] declaration colors",
+			"scope": [
+				"keyword.operator.assignment.python",
+				"keyword.operator.logical.python",
+				"keyword.operator.arithmetic.python",
+				"keyword.operator.assignment.augmented.python",
+				"keyword.other.python",
+				"keyword.operator.comparison.python"
+			],
+			"settings": {
+				"foreground": "#b30bf5"
+			}
+		},
+		{
+			"name": "[PY] change datatype",
+			"scope": [
+				"support.type.python",
+			],
+			"settings": {
+				"foreground": "#ffee00"
+			}
+		},
+		{
+			"name": "[PY] checks ",
+			"scope": [
+				"keyword.control.flow.python",
+			],
+			"settings": {
+				"foreground": "#00d4db"
 			}
 		},
 		{
@@ -495,26 +544,27 @@
 			}
 		},
 		{
-			"name": "[JS] call function colors",
+			"name": "[JS/PY] call function colors",
 			"scope": [
 				"entity.name.function.js",
-				"keyword.control.flow.js"
+				"keyword.control.flow.js",
+				"meta.function-call.python"
 			],
 			"settings": {
 				"foreground": "#0099ff"
 			}
 		},
 		{
-			"name": "[JS] change type color ",
+			"name": "[PY] meta function",
 			"scope": [
-				"support.class.builtin.js",
+				"meta.function-call.python",
 			],
 			"settings": {
-				"foreground": "#ffee00"
+				"foreground": "#a4d7fa"
 			}
 		},
 		{
-			"name": "[JS] text color ",
+			"name": "[JS] change type color ",
 			"scope": [
 				"support.class.builtin.js",
 			],
@@ -528,6 +578,7 @@
 				"meta.block.js",
 				"keyword.control.trycatch.js",
 				"keyword.control.conditional.js",
+				"keyword.control.loop.js"
 			],
 			"settings": {
 				"foreground": "#00d4db"
@@ -575,12 +626,15 @@
 			}
 		},
 		{
-			"name": "[JS/JSON] variables + test",
+			"name": "[JS/JSON/PY] variables + text",
 			"scope": [
 				"string.quoted.double.js",
 				"string.quoted.single.js",
 				"string.quoted.double.json",
-				"constant.numeric.json"
+				"constant.numeric.json",
+				"string.quoted.single.single-line.python",
+				"string.quoted.double.single-line.python",
+				"constant.character.escape.linefeed.python"
 			],
 			"settings": {
 				"foreground": "#34b465"
@@ -680,6 +734,7 @@
 			"scope": [
 				"markup.italic.markdown",
 				"markup.bold.markdown",
+				"entity.name.section.markdown"
 			],
 			"settings": {
 				"foreground": "#06e2ff"
