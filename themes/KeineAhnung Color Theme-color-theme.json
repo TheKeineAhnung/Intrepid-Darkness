@@ -535,6 +535,35 @@
 			}
 		},
 		{
+			"name": "[JS] links",
+			"scope": [
+				"variable.other.link.underline.jsdoc",
+				"string.regexp.js"
+			],
+			"settings": {
+				"foreground": "#00f7ff"
+			}
+		},
+		{
+			"name": "[JS] other variables",
+			"scope": [
+				"variable.other.jsdoc",
+				"comment.block.documentation.js"
+			],
+			"settings": {
+				"foreground": "#00ff0d"
+			}
+		},
+		{
+			"name": "[JS] comment blocks",
+			"scope": [
+				"comment.block.documentation.js"
+			],
+			"settings": {
+				"foreground": "#1ac785"
+			}
+		},
+		{
 			"name": "[JS/JSON] variables + test",
 			"scope": [
 				"string.quoted.double.js",
@@ -597,6 +626,75 @@
 			}
 		},
 		{
+			"name": "[Markdown] text",
+			"scope": [
+				"text.html.markdown",
+				"entity.name.section.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {
+				"foreground": "#08b116"
+			}
+		},
+		{
+			"name": "[Markdown] heading tags",
+			"scope": [
+				"punctuation.definition.heading.markdown",
+			],
+			"settings": {
+				"foreground": "#ffff00"
+			}
+		},
+		{
+			"name": "[Markdown] lists",
+			"scope": [
+				"punctuation.definition.list.begin.markdown",
+			],
+			"settings": {
+				"foreground": "#ff8b06"
+			}
+		},
+		{
+			"name": "[Markdown] Emphasis tags",
+			"scope": [
+				"punctuation.definition.italic.markdown",
+				"punctuation.definition.bold.markdown",
+			],
+			"settings": {
+				"foreground": "#06e2ff"
+			}
+		},
+		{
+			"name": "[Markdown] Emphasis text",
+			"scope": [
+				"markup.italic.markdown",
+				"markup.bold.markdown",
+			],
+			"settings": {
+				"foreground": "#06e2ff"
+			}
+		},
+		{
+			"name": "[Markdown] links",
+			"scope": [
+				"markup.underline.link.image.markdown",
+				"markup.underline.link.markdown",
+			],
+			"settings": {
+				"foreground": "#00a8be"
+			}
+		},
+		{
+			"name": "[Markdown] coding languages",
+			"scope": [
+				"fenced_code.block.language.markdown",
+				"markup.underline.link.markdown",
+			],
+			"settings": {
+				"foreground": "#00a8be"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -640,7 +738,7 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -991,7 +1089,6 @@
 		{
 			"name": "Markdown - Plain",
 			"scope": [
-				"text.html.markdown",
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
@@ -1021,7 +1118,6 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
