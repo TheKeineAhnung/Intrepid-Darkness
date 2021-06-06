@@ -2,7 +2,7 @@
     "name": "keineahnung",
     "displayName": "Dark Colortheme by KeineAhnung",
     "description": "",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "engines": {
         "vscode": "^1.56.0"
     },
@@ -28,7 +28,7 @@
     "keywords": [
         "KeineAhnung",
         "theme",
-        "vsc",
+        "color theme",
         "dark theme",
         "best dark theme"
     ],
