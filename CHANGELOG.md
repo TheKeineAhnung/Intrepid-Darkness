@@ -10,7 +10,7 @@
 
 - Python support
 - Issue templates for the GitHub Repository
-- License and size badge in README.md
+- License and size badge in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
 
 ### Changed
 
