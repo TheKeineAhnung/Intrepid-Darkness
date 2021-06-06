@@ -441,10 +441,21 @@
 			"scope": [
 				"variable.other.readwrite.js",
 				"variable.other.object.property.js",
-				"variable.other.property.js"
+				"variable.other.property.js",
+				"variable.parameter.js",
+				"variable.other.constant.js"
 			],
 			"settings": {
 				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[JS] text colors",
+			"scope": [
+				"string.template.js",
+			],
+			"settings": {
+				"foreground": "#34B465"
 			}
 		},
 		{
@@ -469,8 +480,6 @@
 		{
 			"name": "[JS] declaration colors",
 			"scope": [
-				"variable.other.readwrite.js",
-				"variable.other.constant.js",
 				"entity.other.attribute-name.js"
 			],
 			"settings": {
@@ -490,6 +499,7 @@
 			"name": "[JS] call function colors",
 			"scope": [
 				"entity.name.function.js",
+				"keyword.control.flow.js"
 			],
 			"settings": {
 				"foreground": "#0099ff"
@@ -528,6 +538,7 @@
 			"name": "[JS/JSON] variables + test",
 			"scope": [
 				"string.quoted.double.js",
+				"string.quoted.single.js",
 				"string.quoted.double.json",
 				"constant.numeric.json"
 			],
@@ -539,6 +550,9 @@
 			"name": "[JSON] Level 1",
 			"scope": [
 				"punctuation.definition.array.begin.json",
+				"punctuation.support.type.property-name.end.json",
+				"punctuation.support.type.property-name.begin.json",
+				"punctuation.separator.dictionary.key-value.json"
 			],
 			"settings": {
 				"foreground": "#02f7ff"
@@ -556,11 +570,10 @@
 		{
 			"name": "[JSON] ''",
 			"scope": [
-				"punctuation.support.type.property-name.end.json",
-				"punctuation.support.type.property-name.begin.json"
+
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#688afa"
 			}
 		},
 		{
@@ -573,14 +586,14 @@
 			}
 		},
 		{
-			"name": "[VSCODE-CUSTOM] JSON Property Name",
+			"name": "[JSON] JSON Property Name",
 			"scope": [
 				"support.type.property-name.json",
 				"support.type.property-name.json punctuation",
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#4f99fa"
+				"foreground": "#81d6f8"
 			}
 		},
 		{
@@ -690,7 +703,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#00ff15"
 			}
 		},
 		{
@@ -918,7 +931,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#6DA8F7"
 			}
 		},
 		{
