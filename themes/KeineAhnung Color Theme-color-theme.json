@@ -104,8 +104,8 @@
 		"sideBarSectionHeader.foreground": "#ffffff",
 		"sideBarSectionHeader.border": "#000000",
 		//Minimap
-		"minimap.findMatchHighlight": "#ff9900",
-		"minimap.selectionHighlight": "#adadad",
+		"minimap.findMatchHighlight": "#ffc062",
+		"minimap.selectionHighlight": "#37a4fd",
 		"minimap.errorHighlight": "#cc3300",
 		"minimap.warningHighlight": "#eeff00",
 		"minimap.background": "#111111",
