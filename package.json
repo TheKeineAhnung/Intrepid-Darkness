@@ -30,7 +30,9 @@
         "theme",
         "color theme",
         "dark theme",
-        "best dark theme"
+        "best dark theme",
+        "Intrepid-Darkness",
+        "Intrepid Darkness"
     ],
     "contributes": {
         "themes": [
