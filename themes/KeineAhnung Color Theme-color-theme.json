@@ -366,9 +366,11 @@
 			}
 		},
 		{
-			"name": "[HTML] comment text",
+			"name": "[HTML/Sass/SCSS] comment text",
 			"scope": [
 				"comment.block.html",
+				"comment.line.sass",
+				"comment.block.sass"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -394,14 +396,41 @@
 			}
 		},
 		{
+			"name": "[HTML] class color",
+			"scope": [
+				"text.html.derivative meta.attribute.class.html entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#ffba3b"
+			}
+		},
+		{
+			"name": "[HTML] id color",
+			"scope": [
+				"text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
+			],
+			"settings": {
+				"foreground": "#00a2ff"
+			}
+		},
+		{
 			"name": "[CSS] class color",
 			"scope": [
 				"entity.other.attribute-name.class.css",
 			],
 			"settings": {
-				"foreground": "#00e0bb"
+				"foreground": "#ffba3b"
 			}
 		},
+		{
+			"name": "[CSS] classificate attributes",
+			"scope": [
+			  "support.type.property-name.css",
+			],
+			"settings": {
+			  "foreground": "#69f3f8"
+			}
+		  },
 		{
 			"name": "[HTML] id color",
 			"scope": [
@@ -761,6 +790,72 @@
 			}
 		},
 		{
+			"name": "[Sass/SCSS] coding variables",
+			"scope": [
+				"variable.other.value",
+				"variable.other.name"
+			],
+			"settings": {
+				"foreground": "#40cee0"
+			}
+		},
+		{
+			"name": "[Sass/SCSS] Keyword Control",
+			"scope": [
+				"keyword.control.unit.css.sass",
+			],
+			"settings": {
+				"foreground": "#00ff15"
+			}
+		},
+		{
+			"name": "[Sass/SCSS] placeholder or so",
+			"scope": [
+				"entity.other.inherited-class.placeholder-selector.css.sass",
+			],
+			"settings": {
+				"foreground": "#ffee00"
+			}
+		},
+		{
+			"name": "[Sass/SCSS] Strings",
+			"scope": [
+				"string.quoted.double.css.sass",
+			],
+			"settings": {
+				"foreground": "#00ffff"
+			}
+		},
+		{
+			"name": "[Sass/SCSS] everything else",
+			"scope": [
+				"entity.other.attribute-selector.sass",
+			],
+			"settings": {
+				"foreground": "#00a2ff"
+			}
+		},
+		{
+			"name": "[Sass/SCSS] operators",
+			"scope": [
+				"keyword.operator.sass",
+			],
+			"settings": {
+				"foreground": "#b30bf5"
+			}
+		},
+		{
+			"name": "[CSS/Sass/SCSS] RGB Values",
+			"scope": [
+				"constant.language.color.rgb-value.css.sass",
+				"constant.other.color.rgb-value.hex.css",
+				"punctuation.definition.constant.css"
+			],
+			"settings": {
+				"foreground": "#ff00f2"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -769,6 +864,7 @@
 				"foreground": "#ffffff"
 			}
 		},
+		
 		{
 			"name": "Invalid",
 			"scope": [
