@@ -2,6 +2,26 @@
 
 [comment]: <> (All notable changes to the "KeineAhnung" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.3.0 | 2021-06-07
+
+### Special Information
+
+- Renamed theme to "Inteprid Darkness"
+
+### Added
+
+- Installation Guide in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
+- Sass and SCSS support
+- Preview Page for all supported Languages
+
+### Changed
+
+- Badge style in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
+- Changed color of classificate attributes in CSS files
+- Changed color of class calls in CSS files
+- Changed color of "class" and "id" tag in HTML files
+- Color of RGB Values in CSS files
+
 <br>
 
 ## Version 1.2.0 | 2021-06-06
