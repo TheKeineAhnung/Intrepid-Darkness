@@ -4,6 +4,11 @@
 
 ## Version 1.4.0 | 2021-06-08
 
+## Added
+
+- PHP support
+- SQL support
+
 ## Fixed
 
 - Link to preview page on [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
