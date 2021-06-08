@@ -24,39 +24,39 @@
 <br>
 
 <h3 href="#HTML">HTML</h3>
-<img src="images/preview/previewHTML.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewHTML.png"></img>
 
 <br>
 
 <h3 href="#CSS">CSS</h3>
-<img src="images/preview/previewCSS.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewCSS.png"></img>
 
 <br>
 
 <h3 href="#Sass">Sass</h3> 
-<img src="images/preview/previewSass.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewSass.png"></img>
 
 <br>
 
 </h3 href="#SCSS">SCSS</h3>
-<img src="images/preview/previewSCSS.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewSCSS.png"></img>
 
 <br>
 
 <h3 href="#JS">JavaScript</h3>
-<img src="images/preview/previewJS.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewJS.png"></img>
 
 <br>
 
 <h3 href="#JSON">JSON</h3>
-<img src="images/preview/previewJSON.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewJSON.png"></img>
 
 <br>
 
 <h3 href="#MD">Markdown</h3>
-<img src="images/preview/previewMD.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewMD.png"></img>
 
 <br>
 
 <h3 href="#PY">Python</h3>
-<img src="images/preview/previewPY.png"></img>
+<img src="https://raw.githubusercontent.com/TheKeineAhnung/Intrepid-Darkness/main/images/preview/PreviewPY.png"></img>
