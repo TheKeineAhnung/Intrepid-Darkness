@@ -17,7 +17,7 @@ A dark theme for Visual Studio Code.
 
 ## Preview
 
-For a complete preview visit the [Preview Page]()
+For a complete preview visit the [Preview Page](https://github.com/TheKeineAhnung/Intrepid-Darkness/blob/main/previewPage.md)
 
 <img src="images/preview/PreviewJSON.png"></img>
 
