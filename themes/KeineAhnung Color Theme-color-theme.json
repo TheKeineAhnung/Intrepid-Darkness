@@ -354,7 +354,7 @@
 },
 	"tokenColors": [
 		{
-			"name": "[HTML/JS] <>",
+			"name": "[HTML/JS/PHP] <>",
 			"scope": [
 				"punctuation.definition.tag.html",
 				"punctuation.definition.comment.html",
@@ -450,7 +450,7 @@
 			}
 		},
 		{
-			"name": "[HTML/CSS] tag colors",
+			"name": "[HTML/CSS/PHP] tag colors",
 			"scope": [
 				"entity.name.tag.inline.any.html",
 				"entity.name.tag.script.html",
@@ -458,24 +458,36 @@
 				"entity.name.tag.other.html",
 				"entity.name.tag.block.any.html",
 				"entity.name.tag.html",
-				"entity.name.tag.css"
+				"entity.name.tag.css",
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
 				"foreground": "#fc5252"
 			}
 		},
 		{
-			"name": "[JS] tag colors",
+			"name": "[JS/PY/PHP] tag colors",
 			"scope": [
 				"variable.other.readwrite.js",
 				"variable.other.object.property.js",
 				"variable.other.property.js",
 				"variable.parameter.js",
 				"variable.other.constant.js",
-				"source.python"
+				"source.python",
+				"variable.other.php"
 			],
 			"settings": {
 				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[PHP] global variable",
+			"scope": [
+				"variable.other.global.safer.php"
+			],
+			"settings": {
+				"foreground": "#d37676"
 			}
 		},
 		{
@@ -499,7 +511,7 @@
 			}
 		},
 		{
-			"name": "[JS] declaration colors",
+			"name": "[JS/PHP/SQL] declaration colors",
 			"scope": [
 				"storage.type.function.js",
 				"storage.type.js",
@@ -516,7 +528,23 @@
 				"keyword.operator.decrement.js",
 				"keyword.operator.assignment.compound.js",
 				"keyword.operator.expression.in.js",
-				"keyword.operator.expression.of.js"
+				"keyword.operator.expression.of.js",
+				"keyword.operator.assignment.php",
+				"keyword.operator.comparison.php",
+				"keyword.operator.increment-decrement.php",
+				"keyword.operator.regexp.php",
+				"keyword.operator.key.php",
+				"punctuation.definition.arguments.begin.bracket.round.php",
+				"punctuation.definition.arguments.end.bracket.round.php",
+				"punctuation.definition.begin.bracket.curly.php",
+				"punctuation.definition.end.bracket.curly.php",
+				"keyword.operator.string.php",
+				"punctuation.section.array.begin.php",
+				"punctuation.section.array.end.php",
+				"keyword.operator.arithmetic.php",
+				"keyword.operator.class.php",
+				"keyword.operator.comparison.sql",
+				"keyword.operator.star.sql"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
@@ -602,12 +630,17 @@
 			}
 		},
 		{
-			"name": "[JS] checks ",
+			"name": "[JS/PHP] checks ",
 			"scope": [
 				"meta.block.js",
 				"keyword.control.trycatch.js",
 				"keyword.control.conditional.js",
-				"keyword.control.loop.js"
+				"keyword.control.loop.js",
+				"keyword.control.if.php",
+				"keyword.control.else.php",
+
+				"keyword.control.while.php",
+				"keyword.control.for.php"
 			],
 			"settings": {
 				"foreground": "#00d4db"
@@ -639,34 +672,51 @@
 				"comment.block.documentation.js",
 				"comment.block.js",
 				"punctuation.definition.comment.js",
-				"comment.line.double-slash.js"
+				"comment.line.double-slash.js",
+				"comment.line.double-slash.php",
+				"comment.block.php"
 			],
 			"settings": {
 				"foreground": "#1ac785"
 			}
 		},
 		{
-			"name": "[JS] comment block declaration",
+			"name": "[JS/PHP] comment block declaration",
 			"scope": [
-				"punctuation.definition.comment.js"
+				"punctuation.definition.comment.js",
+				"punctuation.definition.comment.php"
 			],
 			"settings": {
-				"foreground": "#14885c"
+				"foreground": "#14885c",
 			}
 		},
 		{
-			"name": "[JS/JSON/PY] variables + text",
+			"name": "[JS/JSON/PY/PHP/SQL] variables + text",
 			"scope": [
 				"string.quoted.double.js",
 				"string.quoted.single.js",
 				"string.quoted.double.json",
 				"constant.numeric.json",
 				"string.quoted.single.single-line.python",
-				"string.quoted.double.single-line.python",
-				"constant.character.escape.linefeed.python"
+				"constant.character.escape.linefeed.python",
+				"string.quoted.double.php",
+				"string.regexp.double-quoted.php",
+				"string.quoted.single.php",
+				"string.regexp.single-quoted.php",
+				"string.quoted.single.sql",
+				"punctuation.definition.string.end.sql"
 			],
 			"settings": {
 				"foreground": "#34b465"
+			}
+		},
+		{
+			"name": "[JS/JSON/PY/PHP] variables + text",
+			"scope": [
+				"constant.other.php"
+			],
+			"settings": {
+				"foreground": "#1fe76b"
 			}
 		},
 		{
@@ -850,6 +900,15 @@
 				"constant.language.color.rgb-value.css.sass",
 				"constant.other.color.rgb-value.hex.css",
 				"punctuation.definition.constant.css"
+			],
+			"settings": {
+				"foreground": "#ff00f2"
+			}
+		},
+		{
+			"name": "[SQL] Other",
+			"scope": [
+				"source.sql",
 			],
 			"settings": {
 				"foreground": "#ff00f2"
