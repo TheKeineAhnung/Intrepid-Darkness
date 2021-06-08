@@ -2,11 +2,22 @@
 
 [comment]: <> (All notable changes to the "KeineAhnung" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.4.0 | 2021-06-08
+
+## Fixed
+
+- Link to preview page on [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
+- Images on [previewPage.md]()
+
+<br>
+
 ## Version 1.3.1 | 2021-06-07
 
 ## Fixed
 
 - Badges in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
+
+<br>
 
 ## Version 1.3.0 | 2021-06-07
 
