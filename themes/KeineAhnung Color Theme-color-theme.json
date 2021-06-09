@@ -366,11 +366,12 @@
 			}
 		},
 		{
-			"name": "[HTML/Sass/SCSS] comment text",
+			"name": "[HTML/Sass/SCSS/Y(A)ML] comment text",
 			"scope": [
 				"comment.block.html",
 				"comment.line.sass",
-				"comment.block.sass"
+				"comment.block.sass",
+				"comment.line.number-sign.yaml"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -405,7 +406,16 @@
 			}
 		},
 		{
-			"name": "[HTML] id color",
+			"name": "[XML] id/class color",
+			"scope": [
+				"entity.other.attribute-name.localname.xml"
+			],
+			"settings": {
+				"foreground": "#00a2ff"
+			}
+		},
+		{
+			"name": "[HTML/XML] id color",
 			"scope": [
 				"text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
 			],
@@ -511,7 +521,7 @@
 			}
 		},
 		{
-			"name": "[JS/PHP/SQL] declaration colors",
+			"name": "[JS/PHP/SQL/XML] declaration colors",
 			"scope": [
 				"storage.type.function.js",
 				"storage.type.js",
@@ -544,7 +554,9 @@
 				"keyword.operator.arithmetic.php",
 				"keyword.operator.class.php",
 				"keyword.operator.comparison.sql",
-				"keyword.operator.star.sql"
+				"keyword.operator.star.sql",
+				"entity.other.attribute-name.xml",
+				"meta.tag.xml"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
@@ -667,14 +679,15 @@
 			}
 		},
 		{
-			"name": "[JS] comment blocks",
+			"name": "[JS/PHP/Y(A)ML] comment blocks",
 			"scope": [
 				"comment.block.documentation.js",
 				"comment.block.js",
 				"punctuation.definition.comment.js",
 				"comment.line.double-slash.js",
 				"comment.line.double-slash.php",
-				"comment.block.php"
+				"comment.block.php",
+				"punctuation.definition.comment.yaml"
 			],
 			"settings": {
 				"foreground": "#1ac785"
@@ -799,6 +812,15 @@
 			}
 		},
 		{
+			"name": "[XML] defintions",
+			"scope": [
+				"punctuation.definition.block.sequence.item.yaml",
+			],
+			"settings": {
+				"foreground": "#ffee00"
+			}
+		},
+		{
 			"name": "[Markdown] Emphasis tags",
 			"scope": [
 				"punctuation.definition.italic.markdown",
@@ -915,6 +937,30 @@
 			}
 		},
 		{
+			"name": "[Y(A)ML] Other",
+			"scope": [
+				"entity.other.document.begin.yaml",
+				"entity.other.document.end.yaml"
+			],
+			"settings": {
+				"foreground": "#ff00f2"
+			}
+		},
+		{
+			"name": "[Y(A)ML] text",
+			"scope": [
+				"string.unquoted.plain.out.yaml",
+				"string.unquoted.plain.in.yaml",
+				"string.quoted.single.yaml",
+				"string.unquoted.block.yaml",
+				"string.quoted.double.yaml",
+				"string.quoted.single.yaml"
+			],
+			"settings": {
+				"foreground": "#f1f1f1"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
@@ -923,7 +969,6 @@
 				"foreground": "#ffffff"
 			}
 		},
-		
 		{
 			"name": "Invalid",
 			"scope": [
