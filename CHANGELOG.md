@@ -2,6 +2,13 @@
 
 [comment]: <> (All notable changes to the "KeineAhnung" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.5.0 | 2021-06-09
+
+## Added
+
+- XML support
+- Y(A)ML support
+
 ## Version 1.4.0 | 2021-06-08
 
 ## Added
