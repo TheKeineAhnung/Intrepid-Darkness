@@ -16,6 +16,8 @@ A dark theme for Visual Studio Code.
 - PHP
 - Python
 - SQL
+- XML
+- Y(A)ML
 
 ## Preview
 
