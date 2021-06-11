@@ -366,6 +366,15 @@
 			}
 		},
 		{
+			"name": "[TS] primitive",
+			"scope": [
+				"support.type.primitive.ts",
+			],
+			"settings": {
+				"foreground": "#00aeff"
+			}
+		},
+		{
 			"name": "[HTML/Sass/SCSS/Y(A)ML] comment text",
 			"scope": [
 				"comment.block.html",
@@ -477,13 +486,18 @@
 			}
 		},
 		{
-			"name": "[JS/PY/PHP] tag colors",
+			"name": "[JS/TS/PY/PHP] tag colors",
 			"scope": [
 				"variable.other.readwrite.js",
 				"variable.other.object.property.js",
 				"variable.other.property.js",
 				"variable.parameter.js",
 				"variable.other.constant.js",
+				"variable.other.readwrite.ts",
+				"variable.other.object.property.ts",
+				"variable.other.property.ts",
+				"variable.parameter.ts",
+				"variable.other.constant.ts",
 				"source.python",
 				"variable.other.php"
 			],
@@ -512,9 +526,10 @@
 			}
 		},
 		{
-			"name": "[JS] text colors",
+			"name": "[JS/TS] text colors",
 			"scope": [
 				"string.template.js",
+				"string.template.ts",
 			],
 			"settings": {
 				"foreground": "#34B465"
@@ -539,6 +554,22 @@
 				"keyword.operator.assignment.compound.js",
 				"keyword.operator.expression.in.js",
 				"keyword.operator.expression.of.js",
+				"storage.type.function.ts",
+				"storage.type.ts",
+				"keyword.operator.new.ts",
+				"keyword.operator.assignment.ts",
+				"meta.var-single-variable.expr.ts",
+				"keyword.operator.arithmetic.ts",
+				"punctuation.terminator.statement.ts",
+				"keyword.operator.comparison.ts",
+				"keyword.operator.logical.ts",
+				"storage.type.function.arrow.ts",
+				"keyword.operator.relational.ts",
+				"keyword.operator.increment.ts",
+				"keyword.operator.decrement.ts",
+				"keyword.operator.assignment.compound.ts",
+				"keyword.operator.expression.in.ts",
+				"keyword.operator.expression.of.ts",
 				"keyword.operator.assignment.php",
 				"keyword.operator.comparison.php",
 				"keyword.operator.increment-decrement.php",
@@ -595,9 +626,10 @@
 			}
 		},
 		{
-			"name": "[JS] declaration colors",
+			"name": "[JS/TS] declaration colors",
 			"scope": [
-				"entity.other.attribute-name.js"
+				"entity.other.attribute-name.js",
+				"entity.other.attribute-name.ts"
 			],
 			"settings": {
 				"foreground": "#e66464"
@@ -607,16 +639,19 @@
 			"name": "[JS] call class colors",
 			"scope": [
 				"variable.other.object.js",
+				"variable.other.object.ts",
 			],
 			"settings": {
 				"foreground": "#dadada"
 			}
 		},
 		{
-			"name": "[JS/PY] call function colors",
+			"name": "[JS/TS/PY] call function colors",
 			"scope": [
 				"entity.name.function.js",
 				"keyword.control.flow.js",
+				"entity.name.function.ts",
+				"keyword.control.flow.ts",
 				"meta.function-call.python"
 			],
 			"settings": {
@@ -633,21 +668,26 @@
 			}
 		},
 		{
-			"name": "[JS] change type color ",
+			"name": "[JS/TS] change type color ",
 			"scope": [
 				"support.class.builtin.js",
+				"support.class.builtin.ts",
 			],
 			"settings": {
 				"foreground": "#ffee00"
 			}
 		},
 		{
-			"name": "[JS/PHP] checks ",
+			"name": "[JS/TS/PHP] checks ",
 			"scope": [
 				"meta.block.js",
 				"keyword.control.trycatch.js",
 				"keyword.control.conditional.js",
 				"keyword.control.loop.js",
+				"meta.block.ts",
+				"keyword.control.trycatch.ts",
+				"keyword.control.conditional.ts",
+				"keyword.control.loop.ts",
 				"keyword.control.if.php",
 				"keyword.control.else.php",
 
@@ -659,32 +699,40 @@
 			}
 		},
 		{
-			"name": "[JS] links",
+			"name": "[JS/TS] links",
 			"scope": [
 				"variable.other.link.underline.jsdoc",
-				"string.regexp.js"
+				"string.regexp.js",
+				"variable.other.link.underline.tsdoc",
+				"string.regexp.ts"
 			],
 			"settings": {
 				"foreground": "#00f7ff"
 			}
 		},
 		{
-			"name": "[JS] other variables",
+			"name": "[JS/TS] other variables",
 			"scope": [
 				"variable.other.jsdoc",
-				"comment.block.documentation.js"
+				"comment.block.documentation.js",
+				"variable.other.tsdoc",
+				"comment.block.documentation.ts"
 			],
 			"settings": {
 				"foreground": "#00ff0d"
 			}
 		},
 		{
-			"name": "[JS/PHP/Y(A)ML] comment blocks",
+			"name": "[JS/TS/PHP/Y(A)ML] comment blocks",
 			"scope": [
 				"comment.block.documentation.js",
 				"comment.block.js",
 				"punctuation.definition.comment.js",
 				"comment.line.double-slash.js",
+				"comment.block.documentation.ts",
+				"comment.block.ts",
+				"punctuation.definition.comment.ts",
+				"comment.line.double-slash.ts",
 				"comment.line.double-slash.php",
 				"comment.block.php",
 				"punctuation.definition.comment.yaml"
@@ -694,9 +742,10 @@
 			}
 		},
 		{
-			"name": "[JS/PHP] comment block declaration",
+			"name": "[JS/TS/PHP] comment block declaration",
 			"scope": [
 				"punctuation.definition.comment.js",
+				"punctuation.definition.comment.ts",
 				"punctuation.definition.comment.php"
 			],
 			"settings": {
@@ -704,10 +753,12 @@
 			}
 		},
 		{
-			"name": "[JS/JSON/PY/PHP/SQL] variables + text",
+			"name": "[JS/TS/JSON/PY/PHP/SQL] variables + text",
 			"scope": [
 				"string.quoted.double.js",
 				"string.quoted.single.js",
+				"string.quoted.double.ts",
+				"string.quoted.single.ts",
 				"string.quoted.double.json",
 				"constant.numeric.json",
 				"string.quoted.single.single-line.python",
@@ -1079,7 +1130,8 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.group.braces.curly constant.other.object.key.ts string.unquoted.label.ts"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
