@@ -2,7 +2,7 @@
     "name": "intepriddarkness",
     "displayName": "Intrepid Darkness",
     "description": "",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "engines": {
         "vscode": "^1.56.0"
     },

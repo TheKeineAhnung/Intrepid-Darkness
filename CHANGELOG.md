@@ -2,11 +2,27 @@
 
 [comment]: <> (All notable changes to the "KeineAhnung" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.6.1 | 2021-06-15
+
+### Changed
+
+- Colors for css units
+- Colors for variables in _Name.scss files
+
+### Fixed
+
+- Link for Twitter Badge in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
+
+
+<br>
+
 ## Version 1.6.0 | 2021-06-11
 
 ## Added
 
 - TypeScript support
+
+<br>
 
 ## Version 1.5.0 | 2021-06-09
 
@@ -15,12 +31,16 @@
 - XML support
 - Y(A)ML support
 
+<br>
+
 ## Version 1.4.0 | 2021-06-08
 
 ## Added
 
 - PHP support
 - SQL support
+
+<br>
 
 ## Fixed
 
@@ -31,7 +51,7 @@
 
 ## Version 1.3.1 | 2021-06-07
 
-## Fixed
+### Fixed
 
 - Badges in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
 
