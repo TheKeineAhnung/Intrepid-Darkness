@@ -49,6 +49,6 @@ For a complete preview visit the [Preview Page](https://github.com/TheKeineAhnun
 <a href="https://github.com/TheKeineAhnung/">
     <img src="https://img.shields.io/badge/github-262626.svg?&style=flat-square&logo=github&logoColor=white" alt="GitHub"></img>
 </a>
-<a>
+<a href="https://twitter.com/TheKeineAhnung">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?&style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></img>
 </a>
