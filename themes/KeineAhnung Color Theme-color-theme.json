@@ -394,7 +394,7 @@
 				"keyword.other.unit.vmax.css",
 			],
 			"settings": {
-				"foreground": "#ff00f2"
+				"foreground": "#00af58"
 			}
 		},
 		{
@@ -1141,7 +1141,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#2fff97"
 			}
 		},
 		{
