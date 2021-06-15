@@ -939,6 +939,7 @@
 			"name": "[Sass/SCSS] coding variables",
 			"scope": [
 				"variable.other.value",
+				"variable.scss",
 				"variable.other.name"
 			],
 			"settings": {
