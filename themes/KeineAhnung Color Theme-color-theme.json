@@ -683,10 +683,12 @@
 				"keyword.control.flow.js",
 				"entity.name.function.ts",
 				"keyword.control.flow.ts",
-				"meta.function-call.python"
+				"meta.function-call.python",
+				"variable.parameter.function.python",
+				"variable.language.python"
 			],
 			"settings": {
-				"foreground": "#46b5ff"
+				"foreground": "#46e3ff"
 			}
 		},
 		{
