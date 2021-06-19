@@ -398,7 +398,7 @@
 			}
 		},
 		{
-			"name": "[HTML/Sass/SCSS/Y(A)ML] comment text",
+			"name": "[HTML/Sass/SCSS/Y(A)ML/P] comment text",
 			"scope": [
 				"comment.block.html",
 				"comment.line.sass",
@@ -737,7 +737,7 @@
 			}
 		},
 		{
-			"name": "[JS/TS/PHP/Y(A)ML] comment blocks",
+			"name": "[JS/TS/PHP/PY/Y(A)ML] comment blocks",
 			"scope": [
 				"comment.block.documentation.js",
 				"comment.block.js",
@@ -749,7 +749,8 @@
 				"comment.line.double-slash.ts",
 				"comment.line.double-slash.php",
 				"comment.block.php",
-				"punctuation.definition.comment.yaml"
+				"punctuation.definition.comment.yaml",
+				"comment.line.number-sign.python"
 			],
 			"settings": {
 				"foreground": "#1ac785"
@@ -760,7 +761,8 @@
 			"scope": [
 				"punctuation.definition.comment.js",
 				"punctuation.definition.comment.ts",
-				"punctuation.definition.comment.php"
+				"punctuation.definition.comment.php",
+				"punctuation.definition.comment.python"
 			],
 			"settings": {
 				"foreground": "#14885c",
