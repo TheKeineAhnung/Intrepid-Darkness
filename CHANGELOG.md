@@ -1,6 +1,23 @@
 # Change Log
 
-[comment]: <> (All notable changes to the "KeineAhnung" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
+[comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
+
+## Version 1.6.2 | 2021-06-20
+
+### Changed
+
+- Colors for comments in python files
+- Colors for function calls in python files
+- Colors for many tags in python files
+- Colors for function calls in javaScript, typeScript and python
+- Colors for text in markdown files
+
+### Fixed
+
+- Colors of strings in python files
+- Colors for comments in scss files
+
+<br>
 
 ## Version 1.6.1 | 2021-06-15
 
@@ -12,7 +29,6 @@
 ### Fixed
 
 - Link for Twitter Badge in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
-
 
 <br>
 

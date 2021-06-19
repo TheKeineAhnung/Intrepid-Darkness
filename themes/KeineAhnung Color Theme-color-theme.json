@@ -401,7 +401,9 @@
 			"name": "[HTML/Sass/SCSS/Y(A)ML] comment text",
 			"scope": [
 				"comment.block.html",
+				"punctuation.definition.comment.scss",
 				"comment.line.sass",
+				"comment.line.scss",
 				"comment.block.sass",
 				"comment.line.number-sign.yaml"
 			],
@@ -521,11 +523,19 @@
 				"variable.other.property.ts",
 				"variable.parameter.ts",
 				"variable.other.constant.ts",
-				"source.python",
 				"variable.other.php"
 			],
 			"settings": {
 				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[PY] tag colors",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#7079fc"
 			}
 		},
 		{
@@ -675,19 +685,12 @@
 				"keyword.control.flow.js",
 				"entity.name.function.ts",
 				"keyword.control.flow.ts",
-				"meta.function-call.python"
-			],
-			"settings": {
-				"foreground": "#0099ff"
-			}
-		},
-		{
-			"name": "[PY] meta function",
-			"scope": [
 				"meta.function-call.python",
+				"variable.parameter.function.python",
+				"variable.language.python"
 			],
 			"settings": {
-				"foreground": "#a4d7fa"
+				"foreground": "#46e3ff"
 			}
 		},
 		{
@@ -746,7 +749,7 @@
 			}
 		},
 		{
-			"name": "[JS/TS/PHP/Y(A)ML] comment blocks",
+			"name": "[JS/TS/PHP/PY/Y(A)ML] comment blocks",
 			"scope": [
 				"comment.block.documentation.js",
 				"comment.block.js",
@@ -758,7 +761,8 @@
 				"comment.line.double-slash.ts",
 				"comment.line.double-slash.php",
 				"comment.block.php",
-				"punctuation.definition.comment.yaml"
+				"punctuation.definition.comment.yaml",
+				"comment.line.number-sign.python"
 			],
 			"settings": {
 				"foreground": "#1ac785"
@@ -769,7 +773,8 @@
 			"scope": [
 				"punctuation.definition.comment.js",
 				"punctuation.definition.comment.ts",
-				"punctuation.definition.comment.php"
+				"punctuation.definition.comment.php",
+				"punctuation.definition.comment.python"
 			],
 			"settings": {
 				"foreground": "#14885c",
@@ -785,6 +790,9 @@
 				"string.quoted.double.json",
 				"constant.numeric.json",
 				"string.quoted.single.single-line.python",
+				"string.quoted.double.single-line.python",
+				"string.quoted.single.block.python",
+				"string.quoted.double.block.python",
 				"constant.character.escape.linefeed.python",
 				"string.quoted.double.php",
 				"string.regexp.double-quoted.php",
@@ -864,7 +872,7 @@
 				"string.other.link.description.markdown"
 			],
 			"settings": {
-				"foreground": "#08b116"
+				"foreground": "#46ff55"
 			}
 		},
 		{
@@ -882,7 +890,7 @@
 				"punctuation.definition.list.begin.markdown",
 			],
 			"settings": {
-				"foreground": "#ff8b06"
+				"foreground": "#00A8BE"
 			}
 		},
 		{
