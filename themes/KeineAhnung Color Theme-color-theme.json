@@ -678,16 +678,7 @@
 				"meta.function-call.python"
 			],
 			"settings": {
-				"foreground": "#0099ff"
-			}
-		},
-		{
-			"name": "[PY] meta function",
-			"scope": [
-				"meta.function-call.python",
-			],
-			"settings": {
-				"foreground": "#a4d7fa"
+				"foreground": "#46b5ff"
 			}
 		},
 		{
