@@ -521,11 +521,19 @@
 				"variable.other.property.ts",
 				"variable.parameter.ts",
 				"variable.other.constant.ts",
-				"source.python",
 				"variable.other.php"
 			],
 			"settings": {
 				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[PY] tag colors",
+			"scope": [
+				"source.python"
+			],
+			"settings": {
+				"foreground": "#7079fc"
 			}
 		},
 		{
