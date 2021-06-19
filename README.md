@@ -1,6 +1,6 @@
 # Dark Color Theme of KeineAhnung
 
-![Version](https://img.shields.io/visual-studio-marketplace/v/KeineAhnung.intepriddarkness?style=flat-square) ![Build](https://img.shields.io/github/workflow/status/TheKeineAhnung/Intrepid-Darkness/Publish/main?style=flat-square) ![License](https://img.shields.io/github/license/TheKeineAhnung/Intrepid-Darkness?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/TheKeineAhnung/Intrepid-Darkness?style=flat-square) ![Downloads](https://img.shields.io/visual-studio-marketplace/d/KeineAhnung.intepriddarkness?style=flat-square) <!-- ![RatingStars](https://img.shields.io/visual-studio-marketplace/r/KeineAhnung.intepriddarkness?style=flat-square) -->
+![Version](https://img.shields.io/visual-studio-marketplace/v/KeineAhnung.intepriddarkness?style=flat-square) ![Build](https://img.shields.io/github/workflow/status/TheKeineAhnung/Intrepid-Darkness/Publish/main?style=flat-square) ![License](https://img.shields.io/github/license/TheKeineAhnung/Intrepid-Darkness?style=flat-square) ![Repo Size](https://img.shields.io/github/repo-size/TheKeineAhnung/Intrepid-Darkness?style=flat-square) ![Downloads](https://img.shields.io/visual-studio-marketplace/d/KeineAhnung.intepriddarkness?style=flat-square) ![RatingStars](https://img.shields.io/visual-studio-marketplace/r/KeineAhnung.intepriddarkness?style=flat-square)
 
 A dark theme for Visual Studio Code.
 
@@ -22,7 +22,7 @@ A dark theme for Visual Studio Code.
 
 ## Preview
 
-For a complete preview visit the [Preview Page](https://github.com/TheKeineAhnung/Intrepid-Darkness/blob/main/previewPage.md)
+For more preview pictures visit the [Preview Page](https://github.com/TheKeineAhnung/Intrepid-Darkness/blob/main/previewPage.md)
 
 <img src="images/preview/PreviewJSON.png"></img>
 
