@@ -398,10 +398,12 @@
 			}
 		},
 		{
-			"name": "[HTML/Sass/SCSS/Y(A)ML/P] comment text",
+			"name": "[HTML/Sass/SCSS/Y(A)ML] comment text",
 			"scope": [
 				"comment.block.html",
+				"punctuation.definition.comment.scss",
 				"comment.line.sass",
+				"comment.line.scss",
 				"comment.block.sass",
 				"comment.line.number-sign.yaml"
 			],
@@ -870,7 +872,7 @@
 				"string.other.link.description.markdown"
 			],
 			"settings": {
-				"foreground": "#08b116"
+				"foreground": "#46ff55"
 			}
 		},
 		{
