@@ -350,7 +350,7 @@
 		"breadcrumbPicker.background": "#090909",
 		//Notebook colors
 		"notebook.focusedRowBorder": "#232323",
-		"notebook.rowHoverBackground": "#232323",
+		"notebook.rowHoverBackground": "#232323"
 },
 	"tokenColors": [
 		{
@@ -359,7 +359,7 @@
 				"punctuation.definition.tag.html",
 				"punctuation.definition.comment.html",
 				"punctuation.definition.tag.begin.html",
-				"punctuation.definition.tag.end.html",
+				"punctuation.definition.tag.end.html"
 			],
 			"settings": {
 				"foreground": "#00aeff"
@@ -368,7 +368,7 @@
 		{
 			"name": "[TS] primitive",
 			"scope": [
-				"support.type.primitive.ts",
+				"support.type.primitive.ts"
 			],
 			"settings": {
 				"foreground": "#00aeff"
@@ -391,7 +391,7 @@
 				"keyword.other.unit.vw.css",
 				"keyword.other.unit.vh.css",
 				"keyword.other.unit.vmin.css",
-				"keyword.other.unit.vmax.css",
+				"keyword.other.unit.vmax.css"
 			],
 			"settings": {
 				"foreground": "#00af58"
@@ -415,7 +415,7 @@
 		{
 			"name": "[HTML] DOCTYPE",
 			"scope": [
-				"meta.tag.sgml.doctype.html",
+				"meta.tag.sgml.doctype.html"
 			],
 			"settings": {
 				"foreground": "#e98604"
@@ -424,7 +424,7 @@
 		{
 			"name": "[HTML] meta colors",
 			"scope": [
-				"string.quoted.double.html",
+				"string.quoted.double.html"
 			],
 			"settings": {
 				"foreground": "#00e0bb"
@@ -433,7 +433,7 @@
 		{
 			"name": "[HTML] class color",
 			"scope": [
-				"text.html.derivative meta.attribute.class.html entity.other.attribute-name.html",
+				"text.html.derivative meta.attribute.class.html entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#ffba3b"
@@ -451,7 +451,7 @@
 		{
 			"name": "[HTML/XML] id color",
 			"scope": [
-				"text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
+				"text.html.derivative meta.attribute.id.html entity.other.attribute-name.html"
 			],
 			"settings": {
 				"foreground": "#00a2ff"
@@ -460,7 +460,7 @@
 		{
 			"name": "[CSS] class color",
 			"scope": [
-				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.css"
 			],
 			"settings": {
 				"foreground": "#ffba3b"
@@ -469,7 +469,7 @@
 		{
 			"name": "[CSS] classificate attributes",
 			"scope": [
-			  "support.type.property-name.css",
+			  "support.type.property-name.css"
 			],
 			"settings": {
 			  "foreground": "#69f3f8"
@@ -487,7 +487,7 @@
 		{
 			"name": "[CSS] id color",
 			"scope": [
-				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.css"
 			],
 			"settings": {
 				"foreground": "#00a2ff"
@@ -562,7 +562,7 @@
 			"name": "[JS/TS] text colors",
 			"scope": [
 				"string.template.js",
-				"string.template.ts",
+				"string.template.ts"
 			],
 			"settings": {
 				"foreground": "#34B465"
@@ -643,7 +643,7 @@
 		{
 			"name": "[PY] change datatype",
 			"scope": [
-				"support.type.python",
+				"support.type.python"
 			],
 			"settings": {
 				"foreground": "#ffee00"
@@ -652,7 +652,7 @@
 		{
 			"name": "[PY] checks ",
 			"scope": [
-				"keyword.control.flow.python",
+				"keyword.control.flow.python"
 			],
 			"settings": {
 				"foreground": "#00d4db"
@@ -672,7 +672,7 @@
 			"name": "[JS] call class colors",
 			"scope": [
 				"variable.other.object.js",
-				"variable.other.object.ts",
+				"variable.other.object.ts"
 			],
 			"settings": {
 				"foreground": "#dadada"
@@ -697,7 +697,7 @@
 			"name": "[JS/TS] change type color ",
 			"scope": [
 				"support.class.builtin.js",
-				"support.class.builtin.ts",
+				"support.class.builtin.ts"
 			],
 			"settings": {
 				"foreground": "#ffee00"
@@ -777,7 +777,7 @@
 				"punctuation.definition.comment.python"
 			],
 			"settings": {
-				"foreground": "#14885c",
+				"foreground": "#14885c"
 			}
 		},
 		{
@@ -829,7 +829,7 @@
 		{
 			"name": "[JSON] Level 2",
 			"scope": [
-				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.begin.json"
 			],
 			"settings": {
 				"foreground": "#2fa0cc"
@@ -878,7 +878,7 @@
 		{
 			"name": "[Markdown] heading tags",
 			"scope": [
-				"punctuation.definition.heading.markdown",
+				"punctuation.definition.heading.markdown"
 			],
 			"settings": {
 				"foreground": "#ffff00"
@@ -887,7 +887,7 @@
 		{
 			"name": "[Markdown] lists",
 			"scope": [
-				"punctuation.definition.list.begin.markdown",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#00A8BE"
@@ -896,7 +896,7 @@
 		{
 			"name": "[XML] defintions",
 			"scope": [
-				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.definition.block.sequence.item.yaml"
 			],
 			"settings": {
 				"foreground": "#ffee00"
@@ -906,7 +906,7 @@
 			"name": "[Markdown] Emphasis tags",
 			"scope": [
 				"punctuation.definition.italic.markdown",
-				"punctuation.definition.bold.markdown",
+				"punctuation.definition.bold.markdown"
 			],
 			"settings": {
 				"foreground": "#06e2ff"
@@ -927,7 +927,7 @@
 			"name": "[Markdown] links",
 			"scope": [
 				"markup.underline.link.image.markdown",
-				"markup.underline.link.markdown",
+				"markup.underline.link.markdown"
 			],
 			"settings": {
 				"foreground": "#00a8be"
@@ -937,7 +937,7 @@
 			"name": "[Markdown] coding languages",
 			"scope": [
 				"fenced_code.block.language.markdown",
-				"markup.underline.link.markdown",
+				"markup.underline.link.markdown"
 			],
 			"settings": {
 				"foreground": "#00a8be"
@@ -957,7 +957,7 @@
 		{
 			"name": "[Sass/SCSS] Keyword Control",
 			"scope": [
-				"keyword.control.unit.css.sass",
+				"keyword.control.unit.css.sass"
 			],
 			"settings": {
 				"foreground": "#00ff15"
@@ -966,7 +966,7 @@
 		{
 			"name": "[Sass/SCSS] placeholder or so",
 			"scope": [
-				"entity.other.inherited-class.placeholder-selector.css.sass",
+				"entity.other.inherited-class.placeholder-selector.css.sass"
 			],
 			"settings": {
 				"foreground": "#ffee00"
@@ -975,7 +975,7 @@
 		{
 			"name": "[Sass/SCSS] Strings",
 			"scope": [
-				"string.quoted.double.css.sass",
+				"string.quoted.double.css.sass"
 			],
 			"settings": {
 				"foreground": "#00ffff"
@@ -984,7 +984,7 @@
 		{
 			"name": "[Sass/SCSS] everything else",
 			"scope": [
-				"entity.other.attribute-selector.sass",
+				"entity.other.attribute-selector.sass"
 			],
 			"settings": {
 				"foreground": "#00a2ff"
@@ -993,7 +993,7 @@
 		{
 			"name": "[Sass/SCSS] operators",
 			"scope": [
-				"keyword.operator.sass",
+				"keyword.operator.sass"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
@@ -1013,7 +1013,7 @@
 		{
 			"name": "[SQL] Other",
 			"scope": [
-				"source.sql",
+				"source.sql"
 			],
 			"settings": {
 				"foreground": "#ff00f2"
@@ -1087,7 +1087,7 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution",
+				"keyword.other.substitution"
 			],
 			"settings": {
 				"foreground": "#89DDFF"
@@ -1467,7 +1467,7 @@
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
-				"markup.heading | markup.heading entity.name",
+				"markup.heading | markup.heading entity.name"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
