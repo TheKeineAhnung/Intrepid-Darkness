@@ -502,7 +502,15 @@
 				"entity.name.tag.other.html",
 				"entity.name.tag.block.any.html",
 				"entity.name.tag.html",
-				"entity.name.tag.css",
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#fc5252"
+			}
+		},
+		{
+			"name": "[PHP] tag colors",
+			"scope": [
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php"
 			],
