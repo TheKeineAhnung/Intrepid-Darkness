@@ -2,7 +2,7 @@
     "name": "intepriddarkness",
     "displayName": "Intrepid Darkness",
     "description": "",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "engines": {
         "vscode": "^1.56.0"
     },
@@ -37,13 +37,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "KeineAhnung Color Theme",
+                "label": "Intrepid Darkness",
                 "uiTheme": "vs-dark",
-                "path": "./themes/KeineAhnung Color Theme-color-theme.json"
+                "path": "./themes/IntrepidDarkness.json"
             }
         ]
     },
     "devDependencies": {
-        "vsce": "^1.93.0"
+        "vsce": "^1.95.0"
     }
 }
