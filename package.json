@@ -37,13 +37,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "KeineAhnung Color Theme",
+                "label": "Intrepid Darkness",
                 "uiTheme": "vs-dark",
-                "path": "./themes/KeineAhnung Color Theme-color-theme.json"
+                "path": "./themes/IntrepidDarkness.json"
             }
         ]
     },
     "devDependencies": {
-        "vsce": "^1.93.0"
+        "vsce": "^1.95.0"
     }
 }
