@@ -635,7 +635,8 @@
 				"keyword.operator.assignment.augmented.python",
 				"keyword.operator.comparison.python",
 				"storage.type.class.python",
-				"storage.type.function.python"
+				"storage.type.function.python",
+				"storage.type.string.python"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
@@ -792,6 +793,10 @@
 				"constant.numeric.json",
 				"string.quoted.single.single-line.python",
 				"string.quoted.double.single-line.python",
+				"string.quoted.double.single-line.raw-regex.python",
+				"string.quoted.single.block.raw-regex.python",
+				"string.quoted.double.block.raw-regex.python",
+				"string.quoted.single.single-line.raw-regex.python",
 				"string.quoted.single.block.python",
 				"string.quoted.double.block.python",
 				"constant.character.escape.linefeed.python",
