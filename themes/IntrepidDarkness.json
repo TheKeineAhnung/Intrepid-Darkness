@@ -634,7 +634,9 @@
 				"keyword.operator.arithmetic.python",
 				"keyword.operator.assignment.augmented.python",
 				"keyword.other.python",
-				"keyword.operator.comparison.python"
+				"keyword.operator.comparison.python",
+				"storage.type.class.python",
+				"storage.type.function.python"
 			],
 			"settings": {
 				"foreground": "#b30bf5"
