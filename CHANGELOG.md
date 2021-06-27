@@ -2,6 +2,17 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.6.4 | 2021-06-27
+
+### Changed
+
+- Colors for 'class' and 'def' in python files
+
+### Fixed
+
+- Color for 'as' in python files
+- Color for regex strings in python files
+
 ## Version 1.6.2 | 2021-06-20
 
 ### Changed
