@@ -17,7 +17,7 @@
 		"window.inactiveBorder": "#ffffff",
 		//Text colors
 		"textBlockQuote.background": "#3794ff",
-		"textCodeBlock.background": "#ffffff",
+		"textCodeBlock.background": "#454545",
 		"textLink.activeForeground": "#999999",
 		"textPreformat.foreground": "#ffffff",
 		"textSeparator.foreground": "#ffffff",
