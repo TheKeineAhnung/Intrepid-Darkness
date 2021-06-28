@@ -2,6 +2,12 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.6.4 | 2021-06-28
+
+### Fixed
+
+- Color of code hints
+
 ## Version 1.6.3 | 2021-06-27
 
 ### Changed
