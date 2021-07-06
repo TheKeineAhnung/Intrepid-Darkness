@@ -21,6 +21,7 @@ jobs:
           node-version: 14.x
       - name: npm install
         run: npm install vsce
+      - name: npm fund
         run: npm fund
       - name: Build
         run: vsce package
