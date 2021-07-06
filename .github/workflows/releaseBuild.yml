@@ -1,0 +1,36 @@
+name: Release Build
+
+on:
+  release:
+    types:
+      - created
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: npm install -g vsce
+      - name: npm fund
+        run: npm fund
+      - name: Build
+        run: npm run build
+      - name: Comit build
+        uses: EndBug/add-and-commit@v7
+        with:
+          add: "git add ."
+          default_author: github_actions
+          message: "✨ add release file"
+          signoff: true
