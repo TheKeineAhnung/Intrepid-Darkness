@@ -28,9 +28,8 @@ jobs:
       - name: Build
         run: npm run build
       - name: Comit build
-        uses: EndBug/add-and-commit@v7
-        with:
-          add: "git add ."
-          default_author: github_actions
-          message: "✨ add release file"
-          signoff: true
+        run: |
+          git config --global user.name 'TheKeineAhnung'
+          git config --global user.email 'thekeineahnung@users.noreply.github.com'
+          git commit -am "Automated report"
+          git push
