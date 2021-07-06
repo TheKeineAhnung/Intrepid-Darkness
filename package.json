@@ -1,49 +1,50 @@
 {
-    "name": "intepriddarkness",
-    "displayName": "Intrepid Darkness",
-    "description": "",
-    "version": "1.6.4",
-    "engines": {
-        "vscode": "^1.56.0"
-    },
-    "scripts": {
-        "deploy": "vsce publish --yarn"
-    },
-    "publisher": "KeineAhnung",
-    "categories": [
-        "Themes"
-    ],
-    "galleryBanner": {
-        "color": "#0C1016",
-        "theme": "dark"
-    },
-    "bugs": {
-        "url": "https://github.com/TheKeineAhnung/VSC-theme/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TheKeineAhnung/VSC-theme"
-    },
-    "icon": "icon.png",
-    "keywords": [
-        "KeineAhnung",
-        "theme",
-        "color theme",
-        "dark theme",
-        "best dark theme",
-        "Intrepid-Darkness",
-        "Intrepid Darkness"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Intrepid Darkness",
-                "uiTheme": "vs-dark",
-                "path": "./themes/IntrepidDarkness.json"
-            }
-        ]
-    },
-    "devDependencies": {
-        "vsce": "^1.95.0"
-    }
+  "name": "intepriddarkness",
+  "displayName": "Intrepid Darkness",
+  "description": "",
+  "version": "1.6.4",
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "scripts": {
+    "deploy": "vsce publish --yarn",
+    "build": "vsce package"
+  },
+  "publisher": "KeineAhnung",
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+    "color": "#0C1016",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/TheKeineAhnung/VSC-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheKeineAhnung/VSC-theme"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "KeineAhnung",
+    "theme",
+    "color theme",
+    "dark theme",
+    "best dark theme",
+    "Intrepid-Darkness",
+    "Intrepid Darkness"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Intrepid Darkness",
+        "uiTheme": "vs-dark",
+        "path": "./themes/IntrepidDarkness.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "vsce": "^1.95.0"
+  }
 }
