@@ -2,9 +2,9 @@
   "name": "intepriddarkness",
   "displayName": "Intrepid Darkness",
   "description": "",
-  "version": "1.6.4",
+  "version": "1.7.0",
   "engines": {
-    "vscode": "^1.56.0"
+    "vscode": "^1.58.0"
   },
   "scripts": {
     "deploy": "vsce publish --yarn",
@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "vsce": "^1.95.0"
+    "vsce": "^1.95.1"
   }
 }
