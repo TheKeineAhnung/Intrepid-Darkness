@@ -32,6 +32,5 @@ jobs:
           git add .
           git config --global user.name 'TheKeineAhnung'
           git config --global user.email 'thekeineahnung@users.noreply.github.com'
-          git checkout -b main
           git commit -m "✨ added release file"
           git push
