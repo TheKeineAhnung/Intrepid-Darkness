@@ -7,8 +7,9 @@ A dark theme for Visual Studio Code.
 ## Supported Languages
 
 - CSS
-    - Sass
-    - SCSS
+  - Sass
+  - SCSS
+  - Less
 - HTML
 - JavaScript
 - JSON
@@ -35,13 +36,13 @@ For more preview pictures visit the [Preview Page](https://github.com/TheKeineAh
 5. Code/File > Preferences ＞ Color Theme ＞ Intrepid Darkness.
 6. Rate the theme.
 
-
 ## Links
+
 - [Github Repository](https://github.com/TheKeineAhnung/VSC-theme)
 - [Report a Bug](https://github.com/TheKeineAhnung/VSC-theme/issues/new)
 - [Templates](https://github.com/TheKeineAhnung/VSC-theme/tree/main/.github/ISSUE_TEMPLATES)
 
-[previewPic]: images/Theme_Preview.png
+[previewpic]: images/Theme_Preview.png
 
 <a href="https://www.instagram.com/keineahnunggrafiken/">
     <img src="https://img.shields.io/badge/Instagram-D8226B.svg?&style=flat-square&logo=instagram&logoColor=white" alt="Instagram"></img>
