@@ -537,7 +537,8 @@
         "variable.other.property.ts",
         "variable.parameter.ts",
         "variable.other.constant.ts",
-        "variable.other.php"
+        "variable.other.php",
+        "source.js meta.function-call.js variable.other.object.js"
       ],
       "settings": {
         "foreground": "#fc5252"
@@ -676,7 +677,10 @@
     },
     {
       "name": "[JS] call class colors",
-      "scope": ["variable.other.object.js", "variable.other.object.ts"],
+      "scope": [
+        "source.js variable.other.object.js",
+        "variable.other.object.ts"
+      ],
       "settings": {
         "foreground": "#dadada"
       }
