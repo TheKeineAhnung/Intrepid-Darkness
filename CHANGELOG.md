@@ -2,6 +2,21 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.7.0 | 2021-07-D17
+
+## Added
+
+- Less support
+
+### Changed
+
+- Color for markdown links
+- Color for variable.function() call in javascript files
+
+### Fixed
+
+- Name for selection in VS-Code
+
 ## Version 1.6.4 | 2021-06-28
 
 ### Fixed
@@ -41,7 +56,7 @@
 ### Changed
 
 - Colors for css units
-- Colors for variables in _Name.scss files
+- Colors for variables in \_Name.scss files
 
 ### Fixed
 
@@ -164,7 +179,7 @@
 
 ### Fixed
 
-- Colors of names in json files 
+- Colors of names in json files
 - Many colors in javascript files
 
 <br>
