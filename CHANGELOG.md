@@ -4,13 +4,13 @@
 
 ## Version 1.8.0 | 2021-07-19
 
-## Added
+### Added
 
 - Dart support
 
 ## Version 1.7.0 | 2021-07-17
 
-## Added
+### Added
 
 - Less support
 
@@ -72,7 +72,7 @@
 
 ## Version 1.6.0 | 2021-06-11
 
-## Added
+### Added
 
 - TypeScript support
 
@@ -80,7 +80,7 @@
 
 ## Version 1.5.0 | 2021-06-09
 
-## Added
+### Added
 
 - XML support
 - Y(A)ML support
@@ -89,7 +89,7 @@
 
 ## Version 1.4.0 | 2021-06-08
 
-## Added
+### Added
 
 - PHP support
 - SQL support
