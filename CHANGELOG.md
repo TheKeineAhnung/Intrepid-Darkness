@@ -2,6 +2,12 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.0 | 2021-07-19
+
+## Added
+
+- Dart support
+
 ## Version 1.7.0 | 2021-07-17
 
 ## Added
