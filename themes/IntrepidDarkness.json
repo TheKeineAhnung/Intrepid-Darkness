@@ -577,7 +577,7 @@
       }
     },
     {
-      "name": "[JS/TS/PHP/SQL/XML/Less] declaration colors",
+      "name": "[Dart/JS/TS/PHP/SQL/XML/Less] declaration colors",
       "scope": [
         "storage.type.function.js",
         "storage.type.js",
@@ -629,7 +629,15 @@
         "keyword.operator.star.sql",
         "entity.other.attribute-name.xml",
         "meta.tag.xml",
-        "keyword.operator.less"
+        "keyword.operator.less",
+        "storage.type.primitive.dart",
+        "keyword.declaration.dart",
+        "storage.modifier.dart",
+        "keyword.operator.ternary.dart",
+        "storage.type.annotation.dart",
+        "keyword.operator.closure.dart",
+        "storage.type.primitive.dart",
+        "keyword.operator.assignment.dart"
       ],
       "settings": {
         "foreground": "#b30bf5"
@@ -686,7 +694,7 @@
       }
     },
     {
-      "name": "[JS/TS/PY] call function colors",
+      "name": "[Dart/JS/TS/PY] call function colors",
       "scope": [
         "entity.name.function.js",
         "keyword.control.flow.js",
@@ -694,7 +702,8 @@
         "keyword.control.flow.ts",
         "meta.function-call.python",
         "variable.parameter.function.python",
-        "variable.language.python"
+        "variable.language.python",
+        "entity.name.function.dart"
       ],
       "settings": {
         "foreground": "#46e3ff"
@@ -760,7 +769,7 @@
       }
     },
     {
-      "name": "[JS/TS/PHP/PY/Y(A)ML] comment blocks",
+      "name": "[Dart/JS/TS/PHP/PY/Y(A)ML] comment blocks",
       "scope": [
         "comment.block.documentation.js",
         "comment.block.js",
@@ -773,7 +782,9 @@
         "comment.line.double-slash.php",
         "comment.block.php",
         "punctuation.definition.comment.yaml",
-        "comment.line.number-sign.python"
+        "comment.line.number-sign.python",
+        "comment.line.double-slash.dart",
+        "comment.block.dart"
       ],
       "settings": {
         "foreground": "#1ac785"
