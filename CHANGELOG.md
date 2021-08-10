@@ -2,6 +2,18 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.1 | 2021-08-10
+
+### Changed
+
+- Preview pictures for json, sass and scss files
+
+### Fixed
+
+- Class and id tag color in php files
+- Comment text in scss files
+- Colors for @ rules in scss files
+
 ## Version 1.8.0 | 2021-07-19
 
 ### Added
