@@ -352,19 +352,8 @@
     "notebook.focusedRowBorder": "#232323",
     "notebook.rowHoverBackground": "#232323"
   },
+
   "tokenColors": [
-    {
-      "name": "[HTML/JS/PHP] <>",
-      "scope": [
-        "punctuation.definition.tag.html",
-        "punctuation.definition.comment.html",
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
-      ],
-      "settings": {
-        "foreground": "#00aeff"
-      }
-    },
     {
       "name": "[TS] primitive",
       "scope": ["support.type.primitive.ts"],
@@ -389,7 +378,10 @@
         "keyword.other.unit.vw.css",
         "keyword.other.unit.vh.css",
         "keyword.other.unit.vmin.css",
-        "keyword.other.unit.vmax.css"
+        "keyword.other.unit.vmax.css",
+        "keyword.other.unit.deg.css",
+        "keyword.other.unit.s.css",
+        "keyword.other.unit.ms.css"
       ],
       "settings": {
         "foreground": "#00af58"
@@ -403,6 +395,7 @@
         "comment.line.sass",
         "comment.line.scss",
         "comment.block.sass",
+        "comment.block.scss",
         "comment.line.number-sign.yaml",
         "punctuation.definition.comment.less",
         "punctuation.definition.comment.begin.css",
@@ -430,9 +423,10 @@
       }
     },
     {
-      "name": "[HTML] class color",
+      "name": "[HTML/PHP] class color",
       "scope": [
-        "text.html.derivative meta.attribute.class.html entity.other.attribute-name.html"
+        "text.html.derivative meta.attribute.class.html entity.other.attribute-name.html",
+        "text.html.php meta.attribute.class.html entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#ffba3b"
@@ -446,9 +440,10 @@
       }
     },
     {
-      "name": "[HTML/XML] id color",
+      "name": "[HTML/PHP] id color",
       "scope": [
-        "text.html.derivative meta.attribute.id.html entity.other.attribute-name.html"
+        "text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
+        "text.html.php meta.attribute.id.html entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#00a2ff"
@@ -463,7 +458,11 @@
     },
     {
       "name": "[CSS] classificate attributes",
-      "scope": ["support.type.property-name.css", "meta.property-list.css"],
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-list.css",
+        "meta.at-rule.keyframes.scss entity.other.attribute-name.scss"
+      ],
       "settings": {
         "foreground": "#69f3f8"
       }
@@ -1073,6 +1072,7 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
+        "text.html.derivative comment.block.html punctuation.definition.comment.html",
         "punctuation.section.embedded",
         "keyword.other.template",
         "keyword.other.substitution"
@@ -1129,7 +1129,9 @@
         "constant.escape",
         "variable.parameter",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "entity.name.function.scss",
+        "meta.property-value.scss"
       ],
       "settings": {
         "foreground": "#2fff97"
