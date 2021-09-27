@@ -1,0 +1,9 @@
+*.code-workspace
+node_modules
+examplefiles
+.vscode
+colorsPreset.json
+tokenColorDefault.json
+save.json
+.vscodeignore
+/.idea
