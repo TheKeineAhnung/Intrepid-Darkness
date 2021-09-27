@@ -21,7 +21,7 @@ jobs:
           python-version: 3.8
       - name: Execute script
         run: |
-          python run.py
+          python invert.py
         working-directory: script
       - name: Comit build
         run: |
