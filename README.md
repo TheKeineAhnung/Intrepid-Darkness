@@ -12,12 +12,14 @@ A dark theme for Visual Studio Code.
   - Less
 - Dart
 - HTML
+- Ignore files
 - JavaScript
 - JSON
 - Markdown
 - PHP
 - Python
 - SQL
+- SVG
 - TypeScript
 - XML
 - Y(A)ML
