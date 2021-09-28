@@ -2,6 +2,23 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.2 | 2021-09-28
+
+### Added
+
+- Automatically generated light theme
+- .gitignore support
+
+### Changed
+
+- Lighter color for text in JavaScript, TypeScript, JSON, Python, PHP and SQL files
+- Color for async and await in JavaScript files
+
+### Fixed
+
+- Tag color in html files
+- Color for second+ color when multiple return in python files
+
 ## Version 1.8.1 | 2021-08-10
 
 ### Changed
