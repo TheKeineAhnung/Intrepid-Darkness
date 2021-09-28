@@ -7,6 +7,12 @@ on:
     paths:
       - "themes/IntrepidDarkness.json"
 
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "themes/IntrepidDarkness.json"
+
   workflow_dispatch:
 
 jobs:
