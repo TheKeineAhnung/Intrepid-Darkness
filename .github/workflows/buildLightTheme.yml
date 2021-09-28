@@ -2,6 +2,8 @@ name: Build Light Theme
 
 on:
   push:
+    paths:
+      - "themes/IntrepidDarkness.json"
 
   workflow_dispatch:
 
