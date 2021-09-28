@@ -8,9 +8,15 @@ def invert_theme():
             try:
                 line_splitted = e.split("#")
                 color_code = line_splitted[1]
-                color_code = color_code.replace('"\n', '')
-                inverted_color = invert.invert_hex('#' + color_code)
-                target_file.write(line_splitted[0] + inverted_color + '"\n')
+                if ',' not in e:
+                    color_code = color_code.replace('"\n', '')
+                    inverted_color = invert.invert_hex('#' + color_code)
+                    target_file.write(line_splitted[0] + inverted_color + '"\n')
+                else:
+                    color_code = color_code.replace('",\n', '')
+                    inverted_color = invert.invert_hex('#' + color_code)
+                    target_file.write(line_splitted[0] + inverted_color + '",\n')
+
             except:
                 if '"type":' in e.strip():
                     e = e.replace("dark", "light")
