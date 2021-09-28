@@ -924,6 +924,13 @@
       }
     },
     {
+      "name": "[.gitignore] Text",
+      "scope": ["source.ignore"],
+      "settings": {
+        "foreground": "#f91d00"
+      }
+    },
+    {
       "name": "[Markdown] Emphasis text",
       "scope": [
         "markup.italic.markdown",
