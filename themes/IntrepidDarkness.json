@@ -416,8 +416,12 @@
       }
     },
     {
-      "name": "[HTML] meta colors",
-      "scope": ["string.quoted.double.html"],
+      "name": "[HTML/XML] meta colors",
+      "scope": [
+        "string.quoted.double.html",
+        "string.quoted.double.xml",
+        "string.quoted.single.xml"
+      ],
       "settings": {
         "foreground": "#00e0bb"
       }
@@ -576,7 +580,7 @@
       }
     },
     {
-      "name": "[Dart/JS/TS/PHP/SQL/XML/Less] declaration colors",
+      "name": "[Dart/JS/TS/PHP/SQL/XML/Less/SVG] declaration colors",
       "scope": [
         "storage.type.function.js",
         "storage.type.js",
@@ -636,7 +640,9 @@
         "storage.type.annotation.dart",
         "keyword.operator.closure.dart",
         "storage.type.primitive.dart",
-        "keyword.operator.assignment.dart"
+        "keyword.operator.assignment.dart",
+        "entity.other.attribute-name.namespace.xml",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#b30bf5"
@@ -696,16 +702,23 @@
       "name": "[Dart/JS/TS/PY] call function colors",
       "scope": [
         "entity.name.function.js",
-        "keyword.control.flow.js",
         "entity.name.function.ts",
         "keyword.control.flow.ts",
         "meta.function-call.python",
         "variable.parameter.function.python",
         "variable.language.python",
-        "entity.name.function.dart"
+        "entity.name.function.dart",
+        "meta.function.parameters.python"
       ],
       "settings": {
         "foreground": "#46e3ff"
+      }
+    },
+    {
+      "name": "[JS] await/async",
+      "scope": ["storage.modifier.async.js", "keyword.control.flow.js"],
+      "settings": {
+        "foreground": "#00BBFF"
       }
     },
     {
@@ -810,6 +823,12 @@
         "string.quoted.single.ts",
         "string.quoted.double.json",
         "constant.numeric.json",
+        "string.quoted.double.php",
+        "string.regexp.double-quoted.php",
+        "string.quoted.single.php",
+        "string.regexp.single-quoted.php",
+        "string.quoted.single.sql",
+        "punctuation.definition.string.end.sql",
         "string.quoted.single.single-line.python",
         "string.quoted.double.single-line.python",
         "string.quoted.double.single-line.raw-regex.python",
@@ -818,16 +837,10 @@
         "string.quoted.single.single-line.raw-regex.python",
         "string.quoted.single.block.python",
         "string.quoted.double.block.python",
-        "constant.character.escape.linefeed.python",
-        "string.quoted.double.php",
-        "string.regexp.double-quoted.php",
-        "string.quoted.single.php",
-        "string.regexp.single-quoted.php",
-        "string.quoted.single.sql",
-        "punctuation.definition.string.end.sql"
+        "constant.character.escape.linefeed.python"
       ],
       "settings": {
-        "foreground": "#34b465"
+        "foreground": "#49FF8C"
       }
     },
     {
