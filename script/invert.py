@@ -22,5 +22,7 @@ def invert_theme():
                     name_count += 1
                     continue
                 target_file.write(e)
+    f.close()
+    target_file.close()
 
 invert_theme()
