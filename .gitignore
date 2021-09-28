@@ -7,3 +7,4 @@ tokenColorDefault.json
 save.json
 .vscodeignore
 /.idea
+package-lock.json
