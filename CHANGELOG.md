@@ -2,6 +2,12 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.2.1 | 2021-09-29
+
+### Fixed
+
+- Lighttheme added to selection
+
 ## Version 1.8.2 | 2021-09-28
 
 ### Added
