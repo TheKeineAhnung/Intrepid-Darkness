@@ -2,7 +2,7 @@
   "name": "intepriddarkness",
   "displayName": "Intrepid Darkness",
   "description": "",
-  "version": "1.8.2",
+  "version": "1.8.2.1",
   "engines": {
     "vscode": "^1.60.2"
   },
@@ -41,6 +41,11 @@
         "label": "Intrepid Darkness",
         "uiTheme": "vs-dark",
         "path": "./themes/IntrepidDarkness.json"
+      },
+      {
+        "label": "Intrepid Darkness Light",
+        "uiTheme": "vs",
+        "path": "./themes/IntrepidDarknessLight.json"
       }
     ]
   },
