@@ -1060,6 +1060,13 @@
       }
     },
     {
+      "name": "[SQL] Other keywords",
+      "scope": ["keyword.other.DML.sql"],
+      "settings": {
+        "foreground": "#46e3ff"
+      }
+    },
+    {
       "name": "Colors",
       "scope": ["constant.other.color"],
       "settings": {
