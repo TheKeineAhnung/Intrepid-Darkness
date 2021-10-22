@@ -951,7 +951,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#f91d00"
+        "foreground": "#f91d32"
       }
     },
     {
@@ -1057,6 +1057,13 @@
       ],
       "settings": {
         "foreground": "#0e0e0e"
+      }
+    },
+    {
+      "name": "[SQL] Other keywords",
+      "scope": ["keyword.other.DML.sql"],
+      "settings": {
+        "foreground": "#b91c00"
       }
     },
     {
@@ -1524,7 +1531,7 @@
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block"],
+      "scope": ["markup.raw.block", "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"],
       "settings": {
         "foreground": "#386d15"
       }
