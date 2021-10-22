@@ -2,6 +2,14 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.4 | 2021-10-22
+
+### Changed
+
+- Color of kexwords in SQL files
+- Color for bold and italic text in markdown files
+- Color for indented list in markdown files
+
 ## Version 1.8.3 | 2021-09-29
 
 ### Fixed
