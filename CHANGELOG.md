@@ -6,7 +6,7 @@
 
 ### Changed
 
-- Color of kexwords in SQL files
+- Color of keywords in SQL files
 - Color for bold and italic text in markdown files
 - Color for indented list in markdown files
 
