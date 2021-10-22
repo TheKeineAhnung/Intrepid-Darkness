@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 10.x
       - name: npm install
-        run: npm install -g vsce
+        run: npm install
       - name: npm fund
         run: npm fund
       - name: Publish
