@@ -1531,7 +1531,7 @@
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block"],
+      "scope": ["markup.raw.block", "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"],
       "settings": {
         "foreground": "#C792EA"
       }
