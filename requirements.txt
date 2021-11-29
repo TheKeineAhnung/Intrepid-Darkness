@@ -1,1 +1,1 @@
-colorcodetools==0.2.1
+colorcodetools==0.3.0
