@@ -556,7 +556,7 @@
     },
     {
       "name": "[PHP] global variable",
-      "scope": ["variable.other.global.safer.php"],
+      "scope": ["variable.other.global.safer.php", "variable.other.global.php"],
       "settings": {
         "foreground": "#2c8989"
       }
@@ -662,6 +662,13 @@
       ],
       "settings": {
         "foreground": "#4cf40a"
+      }
+    },
+    {
+      "name": "[PHP] function keyword color",
+      "scope": ["storage.type.function.php"],
+      "settings": {
+        "foreground": "#b91c00"
       }
     },
     {
@@ -1060,8 +1067,8 @@
       }
     },
     {
-      "name": "[SQL] Other keywords",
-      "scope": ["keyword.other.DML.sql"],
+      "name": "[SQL] Other & sort keywords",
+      "scope": ["keyword.other.DML.sql", "keyword.other.order.sql"],
       "settings": {
         "foreground": "#b91c00"
       }
@@ -1531,7 +1538,10 @@
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block", "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"],
+      "scope": [
+        "markup.raw.block",
+        "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"
+      ],
       "settings": {
         "foreground": "#386d15"
       }

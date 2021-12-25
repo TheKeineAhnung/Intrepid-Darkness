@@ -2,6 +2,17 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.8.5 | 2021-12-25
+
+### Changed
+
+- Color of function keyword in PHP files
+- Color of order keywords in SQL files
+
+### Fixed
+
+- Color of global variables in PHP files
+
 ## Version 1.8.4 | 2021-10-22
 
 ### Changed
@@ -31,19 +42,19 @@
 ### Fixed
 
 - Tag color in html files
-- Color for second+ color when multiple return in python files
+- Color for second+ color when multiple return in Python files
 
 ## Version 1.8.1 | 2021-08-10
 
 ### Changed
 
-- Preview pictures for json, sass and scss files
+- Preview pictures for JSON, SASS and SCSS files
 
 ### Fixed
 
-- Class and id tag color in php files
-- Comment text in scss files
-- Colors for @ rules in scss files
+- Class and id tag color in PHP files
+- Comment text in SCSS files
+- Colors for @ rules in SCSS files
 
 ## Version 1.8.0 | 2021-07-19
 
@@ -60,7 +71,7 @@
 ### Changed
 
 - Color for markdown links
-- Color for variable.function() call in javascript files
+- Color for variable.function() call in JavaScript files
 
 ### Fixed
 
@@ -76,27 +87,27 @@
 
 ### Changed
 
-- Colors for 'class' and 'def' in python files
+- Colors for 'class' and 'def' in Python files
 
 ### Fixed
 
-- Color for 'as' in python files
-- Color for regex strings in python files
+- Color for 'as' in Python files
+- Color for regex strings in Python files
 
 ## Version 1.6.2 | 2021-06-20
 
 ### Changed
 
-- Colors for comments in python files
-- Colors for function calls in python files
-- Colors for many tags in python files
-- Colors for function calls in javaScript, typeScript and python
+- Colors for comments in Python files
+- Colors for function calls in Python files
+- Colors for many tags in Python files
+- Colors for function calls in JavaScript, TypeScript and Python
 - Colors for text in markdown files
 
 ### Fixed
 
-- Colors of strings in python files
-- Colors for comments in scss files
+- Colors of strings in Python files
+- Colors for comments in SCSS files
 
 <br>
 
@@ -104,8 +115,8 @@
 
 ### Changed
 
-- Colors for css units
-- Colors for variables in \_Name.scss files
+- Colors for CSS units
+- Colors for variables in \_name.scss files
 
 ### Fixed
 
@@ -163,7 +174,7 @@
 ### Added
 
 - Installation Guide in [README.md](https://marketplace.visualstudio.com/items?itemName=KeineAhnung.keineahnung&ssr=false#overview)
-- Sass and SCSS support
+- SASS and SCSS support
 - Preview Page for all supported Languages
 
 ### Changed
@@ -187,8 +198,8 @@
 ### Changed
 
 - Highlight and match color on hoverbar
-- Color of fast math operators javascript files
-- Color of while and for loops in javascript files
+- Color of fast math operators JavaScript files
+- Color of while and for loops in JavaScript files
 
 ### Fixed
 
@@ -200,7 +211,7 @@
 
 ### Fixed
 
-- Comment color in javascript files
+- Comment color in JavaScript files
 
 <br>
 
@@ -212,7 +223,7 @@
 
 ### Fixed
 
-- Colors in javascript files for links
+- Colors in JavaScript files for links
 
 <br>
 
@@ -224,12 +235,12 @@
 
 ### Changed
 
-- Colors of names, quotation marks and colons in json files
+- Colors of names, quotation marks and colons in JSON files
 
 ### Fixed
 
-- Colors of names in json files
-- Many colors in javascript files
+- Colors of names in JSON files
+- Many colors in JavaScript files
 
 <br>
 
