@@ -41,9 +41,9 @@ For more preview pictures visit the [Preview Page](https://github.com/TheKeineAh
 
 ## Links
 
-- [Github Repository](https://github.com/TheKeineAhnung/VSC-theme)
-- [Report a Bug](https://github.com/TheKeineAhnung/VSC-theme/issues/new)
-- [Templates](https://github.com/TheKeineAhnung/VSC-theme/tree/main/.github/ISSUE_TEMPLATES)
+- [Github Repository](https://github.com/TheKeineAhnung/Intrepid-Darkness)
+- [Report a Bug](https://github.com/TheKeineAhnung/Intrepid-Darkness/issues/new)
+- [Templates](https://github.com/TheKeineAhnung/Intrepid-Darkness/tree/main/.github/ISSUE_TEMPLATES)
 
 [previewpic]: images/Theme_Preview.png
 
