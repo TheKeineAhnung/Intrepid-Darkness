@@ -665,6 +665,13 @@
       }
     },
     {
+      "name": "[PHP] function keyword color",
+      "scope": ["storage.type.function.php"],
+      "settings": {
+        "foreground": "#46e3ff"
+      }
+    },
+    {
       "name": "[PY] change datatype",
       "scope": ["support.type.python"],
       "settings": {
@@ -1531,7 +1538,10 @@
     },
     {
       "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block", "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"],
+      "scope": [
+        "markup.raw.block",
+        "text.html.markdown markup.list.unnumbered.markdown markup.list.unnumbered.markdown meta.paragraph.markdown"
+      ],
       "settings": {
         "foreground": "#C792EA"
       }
