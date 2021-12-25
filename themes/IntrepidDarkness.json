@@ -556,7 +556,7 @@
     },
     {
       "name": "[PHP] global variable",
-      "scope": ["variable.other.global.safer.php"],
+      "scope": ["variable.other.global.safer.php", "variable.other.global.php"],
       "settings": {
         "foreground": "#d37676"
       }
