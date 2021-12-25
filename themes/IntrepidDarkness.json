@@ -1067,8 +1067,8 @@
       }
     },
     {
-      "name": "[SQL] Other keywords",
-      "scope": ["keyword.other.DML.sql"],
+      "name": "[SQL] Other & sort keywords",
+      "scope": ["keyword.other.DML.sql", "keyword.other.order.sql"],
       "settings": {
         "foreground": "#46e3ff"
       }
