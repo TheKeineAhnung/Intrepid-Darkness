@@ -2,6 +2,16 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.9.0 | 2022-02-02
+
+### Added
+
+- Svelte support
+
+### Fixed
+
+- Color of single quoted strings in html files
+
 ## Version 1.8.5 | 2021-12-25
 
 ### Changed
