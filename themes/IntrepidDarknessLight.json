@@ -388,7 +388,7 @@
       }
     },
     {
-      "name": "[HTML/Sass/SCSS/Y(A)ML/Less] comment text",
+      "name": "[HTML/Sass/SCSS/Y(A)ML/Less/Svelte] comment text",
       "scope": [
         "comment.block.html",
         "punctuation.definition.comment.scss",
@@ -401,7 +401,8 @@
         "punctuation.definition.comment.begin.css",
         "punctuation.definition.comment.end.css",
         "comment.line.double-slash.less",
-        "comment.block.css"
+        "comment.block.css",
+        "comment.block.svelte"
       ],
       "settings": {
         "fontStyle": "italic",
@@ -416,21 +417,24 @@
       }
     },
     {
-      "name": "[HTML/XML] meta colors",
+      "name": "[HTML/XML/Svelte] string colors",
       "scope": [
         "string.quoted.double.html",
+        "string.quoted.single.html",
         "string.quoted.double.xml",
-        "string.quoted.single.xml"
+        "string.quoted.single.xml",
+        "string.quoted.svelte"
       ],
       "settings": {
         "foreground": "#ff1f44"
       }
     },
     {
-      "name": "[HTML/PHP] class color",
+      "name": "[HTML/PHP/Svelte] class color",
       "scope": [
         "text.html.derivative meta.attribute.class.html entity.other.attribute-name.html",
-        "text.html.php meta.attribute.class.html entity.other.attribute-name.html"
+        "text.html.php meta.attribute.class.html entity.other.attribute-name.html",
+        "meta.tag.start.svelte meta.attribute.class.svelte entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#0045c4"
@@ -444,10 +448,11 @@
       }
     },
     {
-      "name": "[HTML/PHP] id color",
+      "name": "[HTML/PHP/Svelte] id color",
       "scope": [
         "text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
-        "text.html.php meta.attribute.id.html entity.other.attribute-name.html"
+        "text.html.php meta.attribute.id.html entity.other.attribute-name.html",
+        "meta.tag.start.svelte meta.attribute.id.svelte entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#ff5d00"
@@ -489,7 +494,7 @@
       }
     },
     {
-      "name": "[HTML/CSS/PHP] tag colors",
+      "name": "[HTML/CSS/PHP/Svelte] tag colors",
       "scope": [
         "entity.name.tag.inline.any.html",
         "entity.name.tag.script.html",
@@ -497,7 +502,8 @@
         "entity.name.tag.other.html",
         "entity.name.tag.block.any.html",
         "entity.name.tag.html",
-        "entity.name.tag.css"
+        "entity.name.tag.css",
+        "entity.name.tag.svelte"
       ],
       "settings": {
         "foreground": "#03adad"
@@ -580,7 +586,7 @@
       }
     },
     {
-      "name": "[Dart/JS/TS/PHP/SQL/XML/Less/SVG] declaration colors",
+      "name": "[Dart/JS/TS/PHP/SQL/XML/Less/SVG/Svelte] declaration colors",
       "scope": [
         "storage.type.function.js",
         "storage.type.js",
@@ -642,7 +648,8 @@
         "storage.type.primitive.dart",
         "keyword.operator.assignment.dart",
         "entity.other.attribute-name.namespace.xml",
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#4cf40a"
