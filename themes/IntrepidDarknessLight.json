@@ -608,7 +608,6 @@
         "storage.type.ts",
         "keyword.operator.new.ts",
         "keyword.operator.assignment.ts",
-        "meta.var-single-variable.expr.ts",
         "keyword.operator.arithmetic.ts",
         "punctuation.terminator.statement.ts",
         "keyword.operator.comparison.ts",
@@ -653,6 +652,13 @@
       ],
       "settings": {
         "foreground": "#4cf40a"
+      }
+    },
+    {
+      "name": "[TS] type colors",
+      "scope": ["meta.var-single-variable.expr.ts"],
+      "settings": {
+        "foreground": "#ff2b24"
       }
     },
     {
@@ -721,8 +727,7 @@
         "meta.function-call.python",
         "variable.parameter.function.python",
         "variable.language.python",
-        "entity.name.function.dart",
-        "meta.function.parameters.python"
+        "entity.name.function.dart"
       ],
       "settings": {
         "foreground": "#b91c00"
