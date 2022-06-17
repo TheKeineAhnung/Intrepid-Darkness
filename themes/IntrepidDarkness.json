@@ -727,8 +727,7 @@
         "meta.function-call.python",
         "variable.parameter.function.python",
         "variable.language.python",
-        "entity.name.function.dart",
-        "meta.function.parameters.python"
+        "entity.name.function.dart"
       ],
       "settings": {
         "foreground": "#46e3ff"
