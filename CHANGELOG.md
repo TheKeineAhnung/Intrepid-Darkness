@@ -2,6 +2,16 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.9.1 | 2022-06-17
+
+### Changed
+
+- Color of keys in dictionarys in TypeScript files
+
+### Fixed
+
+- Color of of code in classes in Python files
+
 ## Version 1.9.0 | 2022-02-02
 
 ### Added
