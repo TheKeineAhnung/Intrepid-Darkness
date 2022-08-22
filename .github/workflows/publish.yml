@@ -25,6 +25,8 @@ jobs:
         run: npm install
       - name: npm fund
         run: npm fund
+      - name: add yarn lockfile
+        run: yarn install
       - name: Publish
         run: npm run deploy
         env:
