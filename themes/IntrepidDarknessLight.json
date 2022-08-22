@@ -434,7 +434,8 @@
       "scope": [
         "text.html.derivative meta.attribute.class.html entity.other.attribute-name.html",
         "text.html.php meta.attribute.class.html entity.other.attribute-name.html",
-        "meta.tag.start.svelte meta.attribute.class.svelte entity.other.attribute-name.svelte"
+        "meta.tag.start.svelte meta.attribute.class.svelte entity.other.attribute-name.svelte",
+        "meta.tag.void.svelte meta.attribute.class.svelte entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#0045c4"
@@ -452,7 +453,8 @@
       "scope": [
         "text.html.derivative meta.attribute.id.html entity.other.attribute-name.html",
         "text.html.php meta.attribute.id.html entity.other.attribute-name.html",
-        "meta.tag.start.svelte meta.attribute.id.svelte entity.other.attribute-name.svelte"
+        "meta.tag.start.svelte meta.attribute.id.svelte entity.other.attribute-name.svelte",
+        "meta.tag.void.svelte meta.attribute.id.svelte entity.other.attribute-name.svelte"
       ],
       "settings": {
         "foreground": "#ff5d00"
