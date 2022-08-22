@@ -2,6 +2,13 @@
 
 [comment]: <> (All notable changes to the "Intrepid Darkness" extension will be documented in this file. Check Keep a Changelog{http://keepachangelog.com/} for recommendations on how to structure this file.)
 
+## Version 1.9.2 | 2022-08-23
+
+### Fixed
+
+- Color of class tag on img tags in svelte files
+- Color of id tag inon img tags svelte files
+
 ## Version 1.9.1 | 2022-06-17
 
 ### Changed
@@ -10,7 +17,7 @@
 
 ### Fixed
 
-- Color of of code in classes in Python files
+- Color of code in classes in Python files
 
 ## Version 1.9.0 | 2022-02-02
 
